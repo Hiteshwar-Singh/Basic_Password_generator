@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Karla&family=Poppins&family=Ubuntu&display=swap');
+*{
+        margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section1{
+display: flex;
+width: calc(1253px);
+height: 678px;
+padding: 64px 61px;
+justify-content: center;
+align-items: flex-start;
+gap: 31px;
+flex-shrink: 0;
+background:#059669;
+}
+.container{
+width: 550px;
+height: 550px;
+flex-shrink: 0;
+background: #FFFBEB;
+}
+.heading1{
+    margin-top: 115px;
+    margin-left: 52px;
+    margin-right: 166px;
+    width: 332px;
+}
+.heading-part1{
+color: #E11D48;
+font-family: Karla;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: 40px; /* 100% */
+letter-spacing: -2px;
+}
+
+.heading-part2{
+color: #FBBF24;
+font-family: Karla;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: 40px;
+letter-spacing: -2px;
+
+}
+
+.p1{
+margin-top: 10px;  
+margin-left: 52px;
+margin-right: 126px; 
+width: 372px;
+color: #FB7185;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+}
+
+.btn1{
+width: auto 191px;
+height: auto 42px;    
+margin-top: 51px;  
+margin-left: 52px;
+/* margin-right: 307px;  */
+display: inline-flex;
+padding: 9px 17px 9px 15px;
+justify-content: center;
+align-items: center;
+gap: 12px;
+border-radius: 6px;
+box-shadow: 3px 3px 10px gray;
+border: 1px solid rgba(251, 113, 133, 1);
+text-shadow: 1px 1px 2px black;
+background: #FBBF24;
+color: #FFFBEB;
+/* text-base/leading-6/font-medium */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+}
+
+.hr1{
+margin-top: 35px;  
+margin-left: 52px;
+margin-right: 52px; 
+background: #D5D4D8;
+width: 446px;
+height: 1px;    
+}
+
+.p2{  
+display: inline-block;     
+width: 211px;
+height: 39px;
+flex-shrink: 0;
+border-radius: 6px;
+background: #E11D48;
+color: #FBBF24;
+text-align: center;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px;
+margin-top: 35px;
+margin-bottom: 115px;
+padding: 4px 16px 3px 15px; 
+box-shadow: 3px 3px 10px gray;
+}
+
+.p2::selection{
+    color:#059669;
+    background: rgba(240,240,240,0.7);
+    text-shadow: 0.5px 0.5px 0px black;
+}
+
+#container-p2{ 
+    margin-left: 52px;
+    margin-right: 19.57812px;
+}
+#container-p3{
+   margin-right: 52px; 
+}
+#p2{
+    color: #FBBF24;
+}
+
+
+
